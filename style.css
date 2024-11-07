@@ -123,3 +123,30 @@ footer {
 .article-but:hover{
 background-color:maroon;
 }
+h1::before {  
+    content: url(https://i.ibb.co/hHW8CYh/award-8207550-1280-1-1.png); 
+    display: inline-block;
+    margin-right: 20px;
+}
+
+h1::after {
+    content: url(https://i.ibb.co/hHW8CYh/award-8207550-1280-1-1.png); 
+    display: inline-block;
+    margin-left: 10px;
+}
+.tel::before {
+    content: url(https://i.ibb.co/g4FJCB9/image-2.png); 
+    width: 35px;
+    height: 35px;
+    display: inline-block;
+    margin-right: 15px;
+}
+
+.address::before {
+    content: url(https://i.ibb.co/MZMmdc5/image-2-6.png);
+    width: 35px;
+    height: 35px;
+    display: inline-block;
+    margin-right: 20px;
+}
+ 
