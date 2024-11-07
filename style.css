@@ -99,52 +99,27 @@ footer {
     color: #850AE5;
     font-weight: bolder;
 }
-
 .socials{
+    background-color: green;
     position: fixed;
     right: -20px;
-    top: 230px;
-    background-color: yellow;
+    top: 240px;
+    width: 110px;
+    height: 250px;
+    color: rgba(202, 255, 196, 0.993);
+    padding: 10px;
     border-radius: 10px;
+    border: 2px solid rgb(66, 255, 157);
+}
+.wow{
     width: 100px;
-    height: 200px;
-    padding: 20px;   
-    border: 6px dotted  grey;   
-    color: black;
-}
-
-.hit{
     position: absolute;
-    top: -20px;
-    left: -20px;
-    width: 113px;
+    top: 450px;
+    left: 350px;
 }
-
-h1::after{
-    content: url(https://i.ibb.co/qmKZGwt/media-774068-1280.png); 
-}
-
-h2::before{
-    content: url(https://i.ibb.co/HXWDyW8/online-store-1674907-1280.png);
-}
-
-.tel::before {
-    content: url(https://i.ibb.co/Kwf5Bzf/communication-1294239-1280.png); 
-    width: 35px;
-    height: 35px;
-    display: inline-block;
-    margin-right: 25px;
-}
-
-.address::before {
-    content: url(https://i.ibb.co/kKZTP7T/image-2-3.png);
-    width: 35px;
-    height: 35px;
-    display: inline-block;
-    margin-right: 20px;
-}
-
 .button:hover{
-    background-color: yellow;
-    border: 8px double  #36bbce ;
+ background-color: darkgray;   
+}
+.article-but:hover{
+background-color:maroon;
 }
